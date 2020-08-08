@@ -6,6 +6,12 @@ backend:
 public_folder: ".vuepress/public/"
 media_folder: ".vuepress/dist/assets/img"
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: sgmelayu
+    api_key: 492781113816819
+    
 collections:
   - name: "doc"
     label: "Doc"
