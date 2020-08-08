@@ -16,7 +16,7 @@ media_library:
     api_key: 492781113816819
     
 collections:
-  - name: "doc"
+   name: "doc"
     label: "Docs"
     label_singular: 'Doc'
     folder: "docs"
