@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: capriosa/vuepress-deploy
+  repo: faizulho/vuepress-deploy
   branch: master
 
-public_folder: ".vuepress/dist/"
-media_folder: ".vuepress/dist/assets/img"
+public_folder: ".vuepress/public/"
+media_folder: ".vuepress/public/assets/img"
 
 collections:
   - name: "doc"
