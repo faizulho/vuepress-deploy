@@ -15,15 +15,14 @@ media_library:
     cloud_name: sgmelayu
     api_key: 492781113816819
     
-collections:
-  - name: "doc"
-    label: "Docs"
-    label_singular: 'Doc'
-    folder: "docs"
-    create: true
+collections: # A list of collections the CMS should be able to edit
+  - name: 'posts' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Posts' # Used in the UI
+    label_singular: 'Post' # Used in the UI, ie: "New Post"
     description: >
       The description is a great place for tone setting, high level information, and editing
       guidelines that are specific to a collection.
+    folder: '_posts'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
     create: true # Allow users to create new documents in this collection
